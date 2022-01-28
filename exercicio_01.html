@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Exercício 01</h2>
+
+    <p>Crie duas variáveis 'x' e 'y' que recbem valores numéricos (integer e/ou float) e exiba no console:</p>
+    
+    <ol>
+        <li>A soma das duas variáveis;</li>
+        <li>A subtração das variáveis;</li>
+        <li>A multiplicação entre as duas variáveis.</li>
+    </ol>
+
+    <p id = "soma"></p>
+    <p id = "subtracao"></p>
+    <p id = "multiplicacao"></p>
+
+    <script>
+
+        var x = 10;
+        var y = 5;
+        var soma = x + y;
+        var subtracao = x - y;
+        var multiplicacao = x * y;
+
+        document.getElementById("soma").innerHTML = "O valor da soma das variáveis é: " + soma;
+        document.getElementById("subtracao").innerHTML = "O valor da subtração entre as variáveis é: " + subtracao;
+        document.getElementById("multiplicacao").innerHTML = "O valor da multiplicação entre as variáveis é: " + multiplicacao;
+
+        console.log(
+            `A soma das variáveis x e y é: `, (soma)
+        )
+
+        console.log(
+            `A subtração entre as variáveis é: `, (subtracao)
+        )
+        
+        console.log(
+            `A multiplicação entre as variáveis é: `, (multiplicacao)
+        )
+    </script>
+</body>
+</html>
